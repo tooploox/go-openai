@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	"github.com/tooploox/go-openai"
+	"github.com/tooploox/go-openai/internal/test/checks"
 )
 
 func TestCompletionsWrongModel(t *testing.T) {
